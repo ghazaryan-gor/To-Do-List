@@ -33,4 +33,6 @@ function addtaskFn() {
   deleteBtn.addEventListener("click", function () {
     taskList.removeChild(taskItem);
   });
+
+  console.log(taskList);
 }
